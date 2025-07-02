@@ -6,7 +6,6 @@ public:
         int n = nums.size();
         int candidate1 = 0, candidate2 = 1; // any two different numbers
         int count1 = 0, count2 = 0;
-
         // 1st pass: Find potential candidates
         for (int num : nums) {
             if (num == candidate1) {
